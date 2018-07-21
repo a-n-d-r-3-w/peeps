@@ -1,8 +1,11 @@
+// @flow
 import React, { Component } from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button';
 
-class App extends Component {
+type Props = {};
+
+class App extends Component<Props> {
   render() {
     return (
       <div className="App">

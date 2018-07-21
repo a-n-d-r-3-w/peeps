@@ -1,5 +1,6 @@
+// @flow
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import AddPerson from '../AddPerson';
+import PersonCard from '../PersonCard';
 
-storiesOf('Add person dialog', module).add('default', () => <AddPerson />);
+storiesOf('PersonCard', module).add('default', () => <PersonCard />);
